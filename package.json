@@ -1,17 +1,15 @@
 {
-  "name": "feedback-wall-api",
+  "name": "grand-egyptian-museum-api",
   "version": "1.0.0",
-  "description": "",
-  "keywords": [],
-  "license": "ISC",
-  "author": "",
-  "type": "commonjs",
-  "main": "app.js",
+  "main": "grand.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node grand.js",
+    "dev": "nodemon app.js"
   },
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^4.19.2"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
 }

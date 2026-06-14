@@ -1,0 +1,4 @@
+1) Get All Artifacts -> GET http://localhost:3000/artifacts
+2) Get Artifact by ID ->  GET http://localhost:3000/artifacts/2
+3) Filter Artifacts -> GET http://localhost:3000/artifacts?era=ancient
+4) Get All Giftshop Products -> GET http://localhost:3000/giftshop
